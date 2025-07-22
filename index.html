@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="">
   <title>Contact Form</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stye.css">
 </head>
-<body>
+<!-- <body>
   <div class="geekcb-wrapper">
     <div class="geekcb-card-login">
       <h1 class="geekcb-card-title">Get in Touch</h1>
@@ -23,13 +23,20 @@
         <div class="geekcb-field-container">
           <input class="geekcb-field" placeholder=" " type="tel" required>
           <label class="geekcb-field-label">Phone Number</label>
-        </div>
+        </div> -->
+
+
+
         <!-- <div class="geekcb-field-container">
           <label class="geekcb-field-label" for="country">Phone Number</label>
           <select id="country" name="country" required>
           <input class="geekcb-field" placeholder=" " type="tel" id="phone" name="phone" inputmode="numeric" required>          
         </div> -->
-        <div class="geekcb-field-container">
+
+
+
+
+        <!-- <div class="geekcb-field-container">
           <input class="geekcb-field" placeholder=" " type="email" required>
           <label class="geekcb-field-label">Email</label>
         </div>
@@ -40,6 +47,27 @@
         <button class="geekcb-btn">Submit</button>
       </form>
     </div>
-  </div>
+  </div> -->
+
+
+
+
+
+
+  <form
+  action="https://formspree.io/f/mkgzjwzn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 </body>
 </html>
