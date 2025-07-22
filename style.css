@@ -1,0 +1,97 @@
+body{
+  background: linear-gradient(#c69c72, #8c6e53);
+  font-family: 'Proza Libre', sans-serif;
+  margin: 0;
+}
+
+.geekcb-wrapper{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.geekcb-card-login{
+  background-color: #7a7265;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgb(37, 40, 39, 0.6);
+  padding: 30px;
+  width: 300px;
+  height: 450px;
+}
+
+.geekcb-card-title{
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.geekcb-form-login{
+  margin-bottom: 0;
+}
+.geekcb-field-container{
+  margin-bottom: 10px;
+  position: relative;
+}
+.geekcb-field{
+  background-color: #c0b7b1;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  min-width: 100%;
+  min-height: 100%;
+  outline: 0;
+  padding: 10px 15px 2px;
+}
+.geekcb-field-label{
+  border-radius: 10px;
+  color: #fff;
+  line-height: 14px;
+  padding: 2px 12px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  transform: translateY(0);
+  transition: color 50ms, background-color 100ms, transform 200ms, font-size 200ms;
+}
+.geekcb-field-focus + .geekcb-field-label, .geekcb-field:not(:placeholder-shown) + .geekcb-field-label {
+  background-color: #7a7265;
+  color: #c0b7b1;
+  transform: translateX(15px) translateY(-20px);
+  font-size: .77rem;
+  transition: transform 200ms, font-size 200ms, background-color 1s, color 1.2s;
+}
+.geekcb-btn{
+  background-color: #c69c72;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 200ms;
+}
+.geekcb-btn:hover{
+  background-color: #8e6e53;
+  border-color: #433e3f;
+  color: #433e3f;
+}
+.geekcb-btn:active{
+  background-color: #433e3f;
+  border-color: #c0b7b1;
+  color: #c0b7b1;
+}
+.last{
+  height: 150px;
+}
